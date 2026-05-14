@@ -1,5 +1,5 @@
-﻿# Ignore Prettier ignore file itself and logs and git attributes
-.prettierignore
+﻿node_modules
+.next
+dist
 *.log
 .gitattributes
-.gitignore
