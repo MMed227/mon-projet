@@ -38,3 +38,4 @@ model Region {
   id   String @id @default(cuid())
   name String @unique
 }
+
