@@ -1,2 +1,7 @@
-﻿* text=auto
-*.sh text eol=lf
+﻿# Normalize line endings
+* text=auto
+
+# Force LF in repo for common text files
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
