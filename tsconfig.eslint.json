@@ -1,0 +1,19 @@
+﻿{
+  "extends": "./tsconfig.json",
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "pages/**/*.ts",
+    "pages/**/*.tsx",
+    "prisma/**/*.ts",
+    "next-env.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    ".next",
+    "dist",
+    "**/*.config.*",
+    ".eslintrc.cjs",
+    "eslint.config.js"
+  ]
+}

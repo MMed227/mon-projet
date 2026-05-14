@@ -1,0 +1,8 @@
+﻿# Ignore ESLint linting on config files and generated DB
+.eslintrc.cjs
+eslint.config.js
+eslint.config.mjs
+*.config.js
+*.config.cjs
+prisma/dev.db
+prisma/*.db
