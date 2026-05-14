@@ -1,22 +1,18 @@
 ﻿module.exports = {
   root: true,
-  parser: "@typescript-eslint/parser",
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 2024,
-    sourceType: "module",
+    sourceType: 'module',
     ecmaFeatures: { jsx: true },
-    project: "./tsconfig.json"
+    project: './tsconfig.json',
   },
-  plugins: ["@typescript-eslint"],
-  extends: [
-    "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
-    "next/core-web-vitals"
-  ],
+  plugins: ['@typescript-eslint'],
+  extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended', 'next/core-web-vitals'],
   rules: {
-    "no-unused-vars": "warn",
-    "@typescript-eslint/no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }],
-    "no-undef": "off"
+    'no-unused-vars': 'warn',
+    '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
+    'no-undef': 'off',
   },
-  ignorePatterns: ["node_modules/", ".next/", "dist/", "prisma/", "*.log"]
+  ignorePatterns: ['node_modules/', '.next/', 'dist/', 'prisma/', '*.log'],
 };
