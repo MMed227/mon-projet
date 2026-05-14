@@ -1,0 +1,4 @@
+﻿# Ignore logs and git attributes
+*.log
+.gitattributes
+.gitignore
