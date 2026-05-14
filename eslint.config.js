@@ -15,7 +15,7 @@ module.exports = [
         ecmaVersion: 2024,
         sourceType: "module",
         ecmaFeatures: { jsx: true },
-        project: "./tsconfig.json"
+        project: './tsconfig.eslint.json'
       },
       globals: {
         window: "readonly",
@@ -35,3 +35,4 @@ module.exports = [
     }
   }
 ];
+
