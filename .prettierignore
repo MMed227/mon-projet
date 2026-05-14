@@ -1,4 +1,5 @@
-﻿# Ignore logs and git attributes
+﻿# Ignore Prettier ignore file itself and logs and git attributes
+.prettierignore
 *.log
 .gitattributes
 .gitignore
